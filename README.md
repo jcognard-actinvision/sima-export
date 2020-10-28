@@ -79,6 +79,8 @@ La commande à taper ressemblera à ceci :
 python export.py -s TABLEAU_SERVER_URL -n NOM_DU_JETON -t SECRET_DU_JETON ID_FEUILLE_COURTIER ID_FEUILLE_AFFAIRES
 ```
 
+Le fichier exporté portera le nom `out.csv` à moins de préciser l’option -f.
+
 ## Compilation pour Windows
 
 Afin d’éliminer le besoin d’installer Python et les librairies tierces sur l’ordinateur de destination, le script `build.bat` vous permettra de générer une version exécutable pour Windows.
